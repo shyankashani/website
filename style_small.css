@@ -61,7 +61,7 @@ a:hover {
 }
 
 p a {
-	background: yellow;
+	background: #ffd966;
 	border-bottom: none;
 }
 
@@ -180,7 +180,7 @@ header li {
 	top: -80px;
 	height: 150px;
 	width: 150px;
-	background: yellow;
+	background: #ffd966;
 	z-index: -1000;
 	border-radius: 500px
 }
@@ -447,9 +447,9 @@ figcaption {
 
 
 ::selection {
-	background: yellow;
+	background: #ffd966;
 }
 
 ::-moz-selection {
-  background: yellow;
+  background: #ffd966;
 }

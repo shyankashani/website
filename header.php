@@ -4,9 +4,8 @@
 	<link rel="stylesheet" type="text/css" media="screen and (min-device-width: 770px)" href="style.css">
 	<link rel="stylesheet" type="text/css" media="screen and (max-device-width:770px)" href="style_small.css">
 	<meta name=viewport content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="/font/font-awesome/css/font-awesome.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,greek,greek-ext,cyrillic-ext,cyrillic,latin-ext,vietnamese' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
 </head>
 <body>
 	<script>
