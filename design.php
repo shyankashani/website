@@ -19,7 +19,7 @@
 			</a>
 		</figure>
 		<figure>
-				<a href="persp_2014.php">
+				<a href="persp-2014.php">
 					<img src="img/perspective_2014/3.jpg">
 					<figcaption>
 						Perspective Magazine 2014

@@ -1,8 +1,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Shyan Kashani</title>
-	<link rel="stylesheet" type="text/css" media="screen and (min-device-width: 770px)" href="style.css">
-	<link rel="stylesheet" type="text/css" media="screen and (max-device-width:770px)" href="style_small.css">
+	<link rel="stylesheet" type="text/css" media="screen and (min-device-width: 770px)" href="css/style.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-device-width:770px)" href="css/style-small.css">
 	<meta name=viewport content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
