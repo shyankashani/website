@@ -14,17 +14,24 @@
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
 	  ga('create', 'UA-46819695-1', 'auto');
 	  ga('send', 'pageview');
-
 	</script>
 	<span class='ball'></span>
 	<header>
 		<ul>
 			<li><a href='/index.php' alt='Home' class='name'>Shyan Kashani</a></li>
-			<li><a href='/index.php' alt='Home'>About</a></li>
-			<li><a href='/engineering-ui.php' alt='Engineering'>Engineering/UI</a></li>
-			<li><a href='/design.php' alt='Design'>Design</a></li>
+			<li><a href='/index.php' alt='Home' id='about'>About</a></li>
+			<li><a href='/engineering-ui.php' alt='Engineering' id='engineering-ui'>Engineering/UI</a></li>
+			<li><a href='/design.php' alt='Design' id='design'>Design</a></li>
 		</ul>
 	</header>
+	<script>
+		if (window.location.pathname === '/index.php') {
+			document.getElementById('about').style.borderBottom = '2px solid black';
+		} else if (window.location.pathname === '/engineering-ui.php') {
+			document.getElementById('engineering-ui').style.borderBottom = '2px solid black';
+		} else if (window.location.pathname === '/design.php') {
+			document.getElementById('design').style.borderBottom = '2px solid black';
+		};
+	</script>
