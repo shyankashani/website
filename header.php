@@ -27,7 +27,7 @@
 		</ul>
 	</header>
 	<script>
-		if (window.location.pathname === '/index.php') {
+		if (window.location.pathname === '/index.php' || window.location.pathname === '/' ) {
 			document.getElementById('about').style.borderBottom = '2px solid black';
 		} else if (window.location.pathname === '/engineering-ui.php') {
 			document.getElementById('engineering-ui').style.borderBottom = '2px solid black';
